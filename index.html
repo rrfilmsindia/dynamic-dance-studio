@@ -3,132 +3,68 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DDS - Dynamic Dance Studio</title>
 
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,Helvetica,sans-serif;
-}
+<title>DDS | Dynamic Dance Studio</title>
 
-body{
-background:#111;
-color:#fff;
-}
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
-header{
-background:#000;
-padding:15px 8%;
-display:flex;
-justify-content:space-between;
-align-items:center;
-position:fixed;
-width:100%;
-top:0;
-}
-
-.logo{
-font-size:35px;
-font-weight:bold;
-color:#ff2d75;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin:15px;
-}
-
-.hero{
-height:100vh;
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
-padding:20px;
-background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
-url("https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=1600");
-background-size:cover;
-background-position:center;
-}
-
-.hero h1{
-font-size:60px;
-color:#ff2d75;
-}
-
-.hero h2{
-margin:15px 0;
-}
-
-.hero p{
-max-width:900px;
-margin:auto;
-line-height:1.8;
-}
-
-.btn{
-display:inline-block;
-margin-top:25px;
-padding:15px 35px;
-background:#ff2d75;
-color:#fff;
-text-decoration:none;
-border-radius:40px;
-}
-
-.section{
-padding:80px 10%;
-}
-
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-}
-
-.card{
-background:#1e1e1e;
-padding:25px;
-border-radius:15px;
-transition:.4s;
-}
-
-.card:hover{
-transform:translateY(-10px);
-background:#ff2d75;
-}
-
-footer{
-background:#000;
-text-align:center;
-padding:30px;
-}
-</style>
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 </head>
 
 <body>
 
+<!--================ NAVBAR =================-->
+
 <header>
 
-<div class="logo">DDS</div>
+<div class="logo">
+
+<img src="images/logo.png" alt="DDS Logo">
+
+<h2>DDS</h2>
+
+</div>
 
 <nav>
-<a href="#">Home</a>
-<a href="#">Classes</a>
-<a href="#">Admission</a>
-<a href="#">Gallery</a>
-<a href="#">Contact</a>
+
+<ul>
+
+<li><a href="#">Home</a></li>
+
+<li><a href="#">About</a></li>
+
+<li><a href="#">Classes</a></li>
+
+<li><a href="#">Gallery</a></li>
+
+<li><a href="#">Events</a></li>
+
+<li><a href="#">Admission</a></li>
+
+<li><a href="#">Contact</a></li>
+
+</ul>
+
 </nav>
+
+<a href="#" class="join-btn">Join Now</a>
 
 </header>
 
+
+<!--================ HERO SECTION =================-->
+
 <section class="hero">
 
-<div>
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h3>WELCOME TO</h3>
 
 <h1>DYNAMIC DANCE STUDIO</h1>
 
@@ -136,83 +72,130 @@ padding:30px;
 
 <p>
 
-Bollywood • Hip Hop • Bhojpuri • Freestyle • Zumba • Kathak • Contemporary • Wedding Choreography • Acting Classes
-
-<br><br>
-
-Classes Available For Kids • Boys • Girls • Men • Women • All Age Groups
+Bollywood • Hip Hop • Bhojpuri • Free Style • Zumba • Kathak • Contemporary
 
 </p>
 
-<a href="#" class="btn">Admission Open</a>
+<div class="offer">
+
+🔥 ADMISSION OPEN
 
 </div>
 
-</section>
+<div class="free">
 
-<section class="section">
+🎉 JUNE MONTH FREE
 
-<h1 style="text-align:center;color:#ff2d75;">Our Dance Classes</h1>
-
-<br><br>
-
-<div class="grid">
-
-<div class="card">
-<h2>Bollywood</h2>
-<p>Professional Bollywood Dance Training.</p>
 </div>
 
-<div class="card">
-<h2>Hip Hop</h2>
-<p>Street Style & Freestyle Dance.</p>
-</div>
+<div class="buttons">
 
-<div class="card">
-<h2>Bhojpuri</h2>
-<p>Modern Bhojpuri Dance Style.</p>
-</div>
+<a href="#" class="btn1">Admission Now</a>
 
-<div class="card">
-<h2>Zumba</h2>
-<p>Dance Fitness Program.</p>
-</div>
+<a href="#" class="btn2">Watch Classes</a>
 
-<div class="card">
-<h2>Kathak</h2>
-<p>Indian Classical Dance.</p>
-</div>
-
-<div class="card">
-<h2>Acting</h2>
-<p>Camera Facing & Expression.</p>
 </div>
 
 </div>
 
 </section>
 
-<section class="section">
 
-<h1 style="text-align:center;color:#ff2d75;">Our Team</h1>
+<!--================ ABOUT =================-->
 
-<br>
+<section class="about">
 
-<div class="grid">
+<h2>About Dynamic Dance Studio</h2>
+
+<p>
+
+Dynamic Dance Studio (DDS) is one of the fastest growing dance academies of Bihar.
+
+We provide Professional Dance, Acting & Fitness Training for Kids, Boys, Girls,
+
+Ladies and Adults.
+
+</p>
+
+<div class="about-box">
+
+<div>
+
+<i class="fa-solid fa-music"></i>
+
+<h3>Dance</h3>
+
+<p>Professional Dance Classes</p>
+
+</div>
+
+<div>
+
+<i class="fa-solid fa-user"></i>
+
+<h3>Acting</h3>
+
+<p>Camera Facing & Stage Performance</p>
+
+</div>
+
+<div>
+
+<i class="fa-solid fa-dumbbell"></i>
+
+<h3>Fitness</h3>
+
+<p>Zumba & Fitness Training</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!--================ NOTICE =================-->
+
+<section class="notice">
+
+<h2>Latest Notice</h2>
+
+<marquee>
+
+🔥 Admission Open |
+
+🎉 June Month FREE |
+
+🏆 Dance Competition Coming Soon |
+
+💃 Join DDS Today
+
+</marquee>
+
+</section>
+
+
+<!--================ TEAM =================-->
+
+<section class="team">
+
+<h2>Our Team</h2>
+
+<div class="team-box">
 
 <div class="card">
-
-<h2>Dance Choreographer</h2>
 
 <h3>Rohit Singh</h3>
 
+<p>Dance Choreographer</p>
+
 </div>
 
 <div class="card">
 
-<h2>Event & Creative Director</h2>
-
 <h3>Vishal Kumar</h3>
+
+<p>Event & Creative Director</p>
 
 </div>
 
@@ -220,15 +203,55 @@ Classes Available For Kids • Boys • Girls • Men • Women • All Age Grou
 
 </section>
 
+
+<!--================ CONTACT =================-->
+
+<section class="contact">
+
+<h2>Contact Us</h2>
+
+<p>
+
+📍 Raniganj Road,
+
+Opposite DSP School,
+
+Imamganj,
+
+Gaya, Bihar
+
+</p>
+
+<p>
+
+📞 6374347592
+
+</p>
+
+<a href="https://wa.me/916374347592" class="whatsapp">
+
+<i class="fab fa-whatsapp"></i>
+
+Chat on WhatsApp
+
+</a>
+
+</section>
+
+
 <footer>
 
-<h2>Dynamic Dance Studio</h2>
+<h3>Dynamic Dance Studio</h3>
 
-<p>Raniganj Road, Opposite DSP School, Imamganj, Gaya, Bihar</p>
+<p>
 
-<p>📞 6374347592</p>
+© 2026 All Rights Reserved
+
+</p>
 
 </footer>
+
+<script src="js/script.js"></script>
 
 </body>
 </html>
