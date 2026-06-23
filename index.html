@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DDS - Dynamic Dance Studio</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:#111;
+color:#fff;
+}
+
+header{
+background:#000;
+padding:15px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:fixed;
+width:100%;
+top:0;
+}
+
+.logo{
+font-size:35px;
+font-weight:bold;
+color:#ff2d75;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+}
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
+url("https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=1600");
+background-size:cover;
+background-position:center;
+}
+
+.hero h1{
+font-size:60px;
+color:#ff2d75;
+}
+
+.hero h2{
+margin:15px 0;
+}
+
+.hero p{
+max-width:900px;
+margin:auto;
+line-height:1.8;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:15px 35px;
+background:#ff2d75;
+color:#fff;
+text-decoration:none;
+border-radius:40px;
+}
+
+.section{
+padding:80px 10%;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1e1e1e;
+padding:25px;
+border-radius:15px;
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+background:#ff2d75;
+}
+
+footer{
+background:#000;
+text-align:center;
+padding:30px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">DDS</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Classes</a>
+<a href="#">Admission</a>
+<a href="#">Gallery</a>
+<a href="#">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h1>DYNAMIC DANCE STUDIO</h1>
+
+<h2>Dance • Acting • Fitness</h2>
+
+<p>
+
+Bollywood • Hip Hop • Bhojpuri • Freestyle • Zumba • Kathak • Contemporary • Wedding Choreography • Acting Classes
+
+<br><br>
+
+Classes Available For Kids • Boys • Girls • Men • Women • All Age Groups
+
+</p>
+
+<a href="#" class="btn">Admission Open</a>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h1 style="text-align:center;color:#ff2d75;">Our Dance Classes</h1>
+
+<br><br>
+
+<div class="grid">
+
+<div class="card">
+<h2>Bollywood</h2>
+<p>Professional Bollywood Dance Training.</p>
+</div>
+
+<div class="card">
+<h2>Hip Hop</h2>
+<p>Street Style & Freestyle Dance.</p>
+</div>
+
+<div class="card">
+<h2>Bhojpuri</h2>
+<p>Modern Bhojpuri Dance Style.</p>
+</div>
+
+<div class="card">
+<h2>Zumba</h2>
+<p>Dance Fitness Program.</p>
+</div>
+
+<div class="card">
+<h2>Kathak</h2>
+<p>Indian Classical Dance.</p>
+</div>
+
+<div class="card">
+<h2>Acting</h2>
+<p>Camera Facing & Expression.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h1 style="text-align:center;color:#ff2d75;">Our Team</h1>
+
+<br>
+
+<div class="grid">
+
+<div class="card">
+
+<h2>Dance Choreographer</h2>
+
+<h3>Rohit Singh</h3>
+
+</div>
+
+<div class="card">
+
+<h2>Event & Creative Director</h2>
+
+<h3>Vishal Kumar</h3>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>Dynamic Dance Studio</h2>
+
+<p>Raniganj Road, Opposite DSP School, Imamganj, Gaya, Bihar</p>
+
+<p>📞 6374347592</p>
+
+</footer>
+
+</body>
+</html>
